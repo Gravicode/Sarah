@@ -18,7 +18,7 @@ namespace SarahApp
     public class ComputerVisionService
     {
        
-        VisionServiceClient VisionServiceClient = new VisionServiceClient(APPCONTANTS.COMPUTERVISION_KEY);
+        VisionServiceClient VisionServiceClient = new VisionServiceClient(APPCONTANTS.COMPUTERVISION_KEY, "https://southeastasia.api.cognitive.microsoft.com/vision/v1.0");
 
         public async Task<byte[]> GetThumbnail(string Url, int width, int height)
         {

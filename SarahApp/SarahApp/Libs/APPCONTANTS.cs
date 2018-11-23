@@ -9,15 +9,15 @@ namespace SarahApp
    public  class APPCONTANTS
     {
         //cognitive service
-        public const string MQTT_SERVER = "gravicodeservices.cloudapp.net"; //"cloud.makestro.com";
+        public const string MQTT_SERVER = "cloud.makestro.com"; //"cloud.makestro.com";
         public const string MQTT_USER = "mifmasterz";
         public const string MQTT_PASS = "123qweasd";
         public const string BING_API_KEY = "7cbea11a8b5344f08b2b5db408f91ed4";
-        public const string COMPUTERVISION_KEY = "1962967cccbe44ab943f94d5780c7b6a";
+        public const string COMPUTERVISION_KEY = "fab29c974d2d4006a5ed0d05ca503196";
         public const string LUIS_APP_ID = "0aa11a64-a01f-40b1-afb6-2daffaabadc1";
         public const string LUIS_SUB_KEY = "0d97be5a9b63419b884977611ccdba1f";
         public const string EMOTION_KEY = "cc22aa743b0340cdb9fb9094cdaadf53";
-        public const string FACE_KEY = "0b06681714024cadbd5adcd3d00a40c1";
+        public const string FACE_KEY = "a068e60df8254cc5a187e3e8c644f316";
         public const string TEXTANALYSIS_KEY = "d850796f81484952a3fe3c6bfcaac5ba";
         //socmed
         public const string Twitter_ConsumerKey = "MKbCFe1z8IYVyjMJsSnvA";

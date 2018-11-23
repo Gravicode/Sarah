@@ -17,7 +17,7 @@ namespace SarahApp
     {
        
     
-        private readonly IFaceServiceClient faceServiceClient = new FaceServiceClient(APPCONTANTS.FACE_KEY);
+        private readonly IFaceServiceClient faceServiceClient = new FaceServiceClient(APPCONTANTS.FACE_KEY, "https://southeastasia.api.cognitive.microsoft.com/face/v1.0");
         private readonly EmotionServiceClient emotionServiceClient = new EmotionServiceClient(APPCONTANTS.EMOTION_KEY);
 
         public async Task<FaceRectangle[]> UploadAndDetectFaces(StorageFile imageFile)
