@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-AG8HCT3</Machine>
-    <WindowsUser>mifma</WindowsUser>
+    <Machine>CODERPC</Machine>
+    <WindowsUser>gravicode</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,154 +10,154 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>e64899a1-33c6-4fa5-9630-5c9147508cdf</PackageIdentityName>
     <PackageIdentityPublisher>CN=mifma</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\experiment\Sarah\SarahApp\SarahApp\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\experiment\Sarah\SarahApp\SarahApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\bin\x64\Debug\SarahApp.exe">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\bin\x64\Debug\SarahApp.exe">
       <PackagePath>entrypoint\SarahApp.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\m2mqtt\4.3.0\lib\win81\M2Mqtt.WinRT.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\m2mqtt\4.3.0\lib\win81\M2Mqtt.WinRT.dll">
       <PackagePath>M2Mqtt.WinRT.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\Microsoft.Data.Edm.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\Microsoft.Data.Edm.dll">
       <PackagePath>Microsoft.Data.Edm.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\de\Microsoft.Data.Edm.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\de\Microsoft.Data.Edm.resources.dll">
       <PackagePath>de\Microsoft.Data.Edm.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\es\Microsoft.Data.Edm.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\es\Microsoft.Data.Edm.resources.dll">
       <PackagePath>es\Microsoft.Data.Edm.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\fr\Microsoft.Data.Edm.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\fr\Microsoft.Data.Edm.resources.dll">
       <PackagePath>fr\Microsoft.Data.Edm.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\it\Microsoft.Data.Edm.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\it\Microsoft.Data.Edm.resources.dll">
       <PackagePath>it\Microsoft.Data.Edm.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\ja\Microsoft.Data.Edm.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\ja\Microsoft.Data.Edm.resources.dll">
       <PackagePath>ja\Microsoft.Data.Edm.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\ko\Microsoft.Data.Edm.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\ko\Microsoft.Data.Edm.resources.dll">
       <PackagePath>ko\Microsoft.Data.Edm.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\ru\Microsoft.Data.Edm.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\ru\Microsoft.Data.Edm.resources.dll">
       <PackagePath>ru\Microsoft.Data.Edm.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\zh-Hans\Microsoft.Data.Edm.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\zh-Hans\Microsoft.Data.Edm.resources.dll">
       <PackagePath>zh-Hans\Microsoft.Data.Edm.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\zh-Hant\Microsoft.Data.Edm.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\zh-Hant\Microsoft.Data.Edm.resources.dll">
       <PackagePath>zh-Hant\Microsoft.Data.Edm.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\Microsoft.Data.OData.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\Microsoft.Data.OData.dll">
       <PackagePath>Microsoft.Data.OData.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\de\Microsoft.Data.OData.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\de\Microsoft.Data.OData.resources.dll">
       <PackagePath>de\Microsoft.Data.OData.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\es\Microsoft.Data.OData.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\es\Microsoft.Data.OData.resources.dll">
       <PackagePath>es\Microsoft.Data.OData.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\fr\Microsoft.Data.OData.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\fr\Microsoft.Data.OData.resources.dll">
       <PackagePath>fr\Microsoft.Data.OData.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\it\Microsoft.Data.OData.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\it\Microsoft.Data.OData.resources.dll">
       <PackagePath>it\Microsoft.Data.OData.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\ja\Microsoft.Data.OData.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\ja\Microsoft.Data.OData.resources.dll">
       <PackagePath>ja\Microsoft.Data.OData.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\ko\Microsoft.Data.OData.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\ko\Microsoft.Data.OData.resources.dll">
       <PackagePath>ko\Microsoft.Data.OData.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\ru\Microsoft.Data.OData.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\ru\Microsoft.Data.OData.resources.dll">
       <PackagePath>ru\Microsoft.Data.OData.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\zh-Hans\Microsoft.Data.OData.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\zh-Hans\Microsoft.Data.OData.resources.dll">
       <PackagePath>zh-Hans\Microsoft.Data.OData.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\zh-Hant\Microsoft.Data.OData.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\zh-Hant\Microsoft.Data.OData.resources.dll">
       <PackagePath>zh-Hant\Microsoft.Data.OData.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Primitives.dll">
       <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
       <PackagePath>System.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
       <PackagePath>System.Net.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
       <PackagePath>System.Numerics.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
       <PackagePath>System.Runtime.Serialization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
       <PackagePath>System.ServiceModel.Web.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
       <PackagePath>System.ServiceModel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
       <PackagePath>System.Windows.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
       <PackagePath>System.Xml.Linq.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
       <PackagePath>System.Xml.Serialization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
       <PackagePath>System.Xml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
       <PackagePath>System.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.projectoxford.common\1.0.324\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.ProjectOxford.Common.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.projectoxford.common\1.0.324\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.ProjectOxford.Common.dll">
       <PackagePath>Microsoft.ProjectOxford.Common.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.projectoxford.emotion\1.0.336\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.ProjectOxford.Emotion.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.projectoxford.emotion\1.0.336\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.ProjectOxford.Emotion.dll">
       <PackagePath>Microsoft.ProjectOxford.Emotion.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.projectoxford.face\1.3.0\lib\portable-net45+wp80+win8+wpa81+aspnetcore50\Microsoft.ProjectOxford.Face.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.projectoxford.face\1.3.0\lib\portable-net45+wp80+win8+wpa81+aspnetcore50\Microsoft.ProjectOxford.Face.dll">
       <PackagePath>Microsoft.ProjectOxford.Face.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.projectoxford.vision\1.0.393\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.ProjectOxford.Vision.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.projectoxford.vision\1.0.393\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.ProjectOxford.Vision.dll">
       <PackagePath>Microsoft.ProjectOxford.Vision.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\mytoolkit\2.5.16\lib\portable-net45+wp8+win8+wpa81\MyToolkit.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\mytoolkit\2.5.16\lib\portable-net45+wp8+win8+wpa81\MyToolkit.dll">
       <PackagePath>MyToolkit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\mytoolkit.extended\2.5.16\lib\uap10.0\MyToolkit.Extended.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\mytoolkit.extended\2.5.16\lib\uap10.0\MyToolkit.Extended.dll">
       <PackagePath>MyToolkit.Extended.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.collections\4.0.11\lib\netcore50\System.Collections.dll">
@@ -235,366 +235,376 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win7-x64.runtime.native.system.io.compression\4.0.1\runtimes\win7-x64\native\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win7.system.private.uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\runtime.win7.system.private.uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
       <PackagePath>System.Buffers.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
       <PackagePath>System.Data.Common.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.diagnostics.diagnosticsource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.diagnostics.diagnosticsource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.io.compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq.expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.linq.expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
       <PackagePath>System.Linq.Parallel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
       <PackagePath>System.Net.NameResolution.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
       <PackagePath>System.Net.Requests.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
       <PackagePath>System.Net.WebSockets.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.net.websockets.client\4.0.0\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.net.websockets.client\4.0.0\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
       <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
       <PackagePath>System.Numerics.Vectors.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
       <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.private.servicemodel\4.1.0\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.private.servicemodel\4.1.0\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
       <PackagePath>System.Reflection.Context.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
       <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.emit.ilgeneration\4.0.1\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.reflection.emit.ilgeneration\4.0.1\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
       <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.emit.lightweight\4.0.1\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.reflection.emit.lightweight\4.0.1\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.runtime.serialization.primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.runtime.serialization.primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.runtime.windowsruntime\4.0.11\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.windowsruntime\4.0.11\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
       <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.cryptography.cng\4.2.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.security.cryptography.cng\4.2.0\runtimes\win\lib\netstandard1.6\System.Security.Cryptography.Cng.dll">
       <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.security.cryptography.encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.security.cryptography.encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
       <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.security.cryptography.primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.security.cryptography.primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
       <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.security.cryptography.x509certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.security.cryptography.x509certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
       <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.servicemodel.duplex\4.0.1\lib\netcore50\System.ServiceModel.Duplex.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.servicemodel.duplex\4.0.1\lib\netcore50\System.ServiceModel.Duplex.dll">
       <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.servicemodel.http\4.1.0\lib\netcore50\System.ServiceModel.Http.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.servicemodel.http\4.1.0\lib\netcore50\System.ServiceModel.Http.dll">
       <PackagePath>System.ServiceModel.Http.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.servicemodel.nettcp\4.1.0\lib\netcore50\System.ServiceModel.NetTcp.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.servicemodel.nettcp\4.1.0\lib\netcore50\System.ServiceModel.NetTcp.dll">
       <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.servicemodel.primitives\4.1.0\lib\netcore50\System.ServiceModel.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.servicemodel.primitives\4.1.0\lib\netcore50\System.ServiceModel.Primitives.dll">
       <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.servicemodel.security\4.0.1\lib\netcore50\System.ServiceModel.Security.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.servicemodel.security\4.0.1\lib\netcore50\System.ServiceModel.Security.dll">
       <PackagePath>System.ServiceModel.Security.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\System.Spatial.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\System.Spatial.dll">
       <PackagePath>System.Spatial.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\de\System.Spatial.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\de\System.Spatial.resources.dll">
       <PackagePath>de\System.Spatial.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\es\System.Spatial.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\es\System.Spatial.resources.dll">
       <PackagePath>es\System.Spatial.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\fr\System.Spatial.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\fr\System.Spatial.resources.dll">
       <PackagePath>fr\System.Spatial.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\it\System.Spatial.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\it\System.Spatial.resources.dll">
       <PackagePath>it\System.Spatial.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\ja\System.Spatial.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\ja\System.Spatial.resources.dll">
       <PackagePath>ja\System.Spatial.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\ko\System.Spatial.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\ko\System.Spatial.resources.dll">
       <PackagePath>ko\System.Spatial.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\ru\System.Spatial.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\ru\System.Spatial.resources.dll">
       <PackagePath>ru\System.Spatial.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\zh-Hans\System.Spatial.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\zh-Hans\System.Spatial.resources.dll">
       <PackagePath>zh-Hans\System.Spatial.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\zh-Hant\System.Spatial.resources.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\zh-Hant\System.Spatial.resources.dll">
       <PackagePath>zh-Hant\System.Spatial.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.threading\4.0.11\lib\netcore50\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.threading\4.0.11\lib\netcore50\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.tasks.extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.threading.tasks.extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
       <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.xml.readerwriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.xml.readerwriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.xml.xdocument\4.0.11\lib\netcore50\System.Xml.XDocument.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.xml.xdocument\4.0.11\lib\netcore50\System.Xml.XDocument.dll">
       <PackagePath>System.Xml.XDocument.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
       <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\windowsazure.storage\8.1.4\lib\win8\Microsoft.WindowsAzure.Storage.dll">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\windowsazure.storage\8.1.4\lib\win8\Microsoft.WindowsAzure.Storage.dll">
       <PackagePath>Microsoft.WindowsAzure.Storage.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\bin\x64\Debug\SarahApp.xr.xml">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\bin\x64\Debug\SarahApp.xr.xml">
       <PackagePath>SarahApp.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\bin\x64\Debug\Styles\Styles.xbf">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\bin\x64\Debug\Styles\Styles.xbf">
       <PackagePath>Styles\Styles.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mifma\.nuget\packages\mytoolkit.extended\2.5.16\lib\uap10.0\MyToolkit.Extended\MyToolkit.Extended.xr.xml">
+    <AppxPackagedFile Include="C:\Users\gravicode\.nuget\packages\mytoolkit.extended\2.5.16\lib\uap10.0\MyToolkit.Extended\MyToolkit.Extended.xr.xml">
       <PackagePath>MyToolkit.Extended\MyToolkit.Extended.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\bin\x64\Debug\Core\SarahApp.exe">
+    <AppxPackagedFile Include="C:\experiment\Sarah\SarahApp\SarahApp\bin\x64\Debug\Core\SarahApp.exe">
       <PackagePath>SarahApp.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
       <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.25915.0</Version>
+      <Version>1.1.27004.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.27004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
       <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.25915.0</Version>
+      <Version>1.1.27004.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.27004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
       <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.25915.0</Version>
+      <Version>1.1.27004.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.27004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26428.1</Version>
+      <Version>14.0.27023.1</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26428.1</Version>
+      <Version>14.0.27023.1</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26428.1</Version>
+      <Version>14.0.27023.1</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>

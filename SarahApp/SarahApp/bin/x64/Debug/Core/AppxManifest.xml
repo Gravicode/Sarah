@@ -15,9 +15,9 @@
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10586.0" MaxVersionTested="10.0.15063.0" />
-    <PackageDependency Name="Microsoft.NET.CoreRuntime.1.1" MinVersion="1.1.25915.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
-    <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.26428.1" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.18362.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.27023.1" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.CoreRuntime.1.1" MinVersion="1.1.27004.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
@@ -36,16 +36,24 @@
     <DeviceCapability Name="webcam" />
     <DeviceCapability Name="microphone" />
   </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>SarahApp.exe</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="15.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2017" />
-    <build:Item Name="OperatingSystem" Version="10.0.17758.1 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.27703.2026" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Professional 2017" />
+    <build:Item Name="OperatingSystem" Version="10.0.18362.1 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.28307.104" />
     <build:Item Name="ProjectGUID" Value="{5EC68D36-B6CB-4F79-AE78-143E6B58B0B4}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.27703.2026" />
-    <build:Item Name="MakePri.exe" Version="10.0.15063.674 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.18362.1" />
+    <build:Item Name="MakePri.exe" Version="10.0.18362.1 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

@@ -57,7 +57,7 @@ namespace SarahApp
             if (allVideoDevices.Count > 0)
             {
                 // If there is a device attached, return the first device found
-                return allVideoDevices.Count>1 ? allVideoDevices[1] : allVideoDevices[0];
+                return allVideoDevices.Count>1 ? allVideoDevices[0] : allVideoDevices[0];
             }
             else
             {

@@ -8,10 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <SplitView x:ConnectionId='1' x:Name="Splitter" IsPaneOpen="True" Grid.Column="1" DisplayMode="Inline" Grid.Row="1">
+        <SplitView x:ConnectionId='2' x:Name="Splitter" IsPaneOpen="True" Grid.Column="1" DisplayMode="Inline" Grid.Row="1">
             <SplitView.Pane>
                 <RelativePanel Margin="10,0,0,0">
-                    <Grid x:ConnectionId='2' x:Name="RootGrid" Margin="12,20,12,12">
+                    <Grid x:ConnectionId='3' x:Name="RootGrid" Margin="12,20,12,12">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="*"/>
@@ -28,39 +28,39 @@
                             <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock Text="Bahasa: " Margin="10,0,0,0" VerticalAlignment="Center"/>
-                                    <ComboBox x:ConnectionId='9' x:Name="cbLanguageSelection"                                                         Margin="10" Width="200"/>
+                                    <ComboBox x:ConnectionId='10' x:Name="cbLanguageSelection"                                                         Margin="10" Width="200"/>
                                 </StackPanel>
 
 
-                                <TextBlock x:ConnectionId='4' x:Name="listGrammarHelpText" Margin="0,5,0,0" TextWrapping="Wrap" Style="{StaticResource BodyTextBlockStyle}"/>
-                                <TextBlock x:ConnectionId='5' x:Name="heardYouSayTextBlock" Margin="0,5,0,0" Text="Heard you say" Visibility="Collapsed" TextWrapping="Wrap" Style="{StaticResource TitleTextBlockStyle}"/>
-                                <TextBlock x:ConnectionId='6' x:Name="resultTextBlock" Margin="0,5,0,0" Visibility="Collapsed" TextWrapping="Wrap" Style="{StaticResource BodyTextBlockStyle}"/>
-                                <CaptureElement x:ConnectionId='7' x:Name='WebcamFeed'                           />
-                                <MediaElement x:ConnectionId='8' x:Name="speechMediaElement" HorizontalAlignment="Left" VerticalAlignment="Top"                                   />
+                                <TextBlock x:ConnectionId='5' x:Name="listGrammarHelpText" Margin="0,5,0,0" TextWrapping="Wrap" Style="{StaticResource BodyTextBlockStyle}"/>
+                                <TextBlock x:ConnectionId='6' x:Name="heardYouSayTextBlock" Margin="0,5,0,0" Text="Heard you say" Visibility="Collapsed" TextWrapping="Wrap" Style="{StaticResource TitleTextBlockStyle}"/>
+                                <TextBlock x:ConnectionId='7' x:Name="resultTextBlock" Margin="0,5,0,0" Visibility="Collapsed" TextWrapping="Wrap" Style="{StaticResource BodyTextBlockStyle}"/>
+                                <CaptureElement x:ConnectionId='8' x:Name='WebcamFeed'                           />
+                                <MediaElement x:ConnectionId='9' x:Name="speechMediaElement" HorizontalAlignment="Left" VerticalAlignment="Top"                                   />
 
                             </StackPanel>
                         </ScrollViewer>
 
                         <!-- Status Block for providing messages to the user.  Use the
              NotifyUser() method to populate the message -->
-                        <TextBlock x:ConnectionId='3' x:Name="StatusBlock" Grid.Row="2" Margin="12, 10, 12, 10" Visibility="Collapsed"/>
+                        <TextBlock x:ConnectionId='4' x:Name="StatusBlock" Grid.Row="2" Margin="12, 10, 12, 10" Visibility="Collapsed"/>
                     </Grid>
                 </RelativePanel>
             </SplitView.Pane>
             <RelativePanel>
-                <StackPanel x:ConnectionId='10' x:Name="StatusPanel" RelativePanel.AlignTopWithPanel="True" Orientation="Vertical" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
-                    <MediaPlayerElement x:ConnectionId='11' x:Name="Player1" AutoPlay="False" Margin="5" HorizontalAlignment="Stretch" Height="600" AreTransportControlsEnabled="True"/>
-                    <ListView x:ConnectionId='12' Name="ListGambar" Visibility="Collapsed">
+                <StackPanel x:ConnectionId='11' x:Name="StatusPanel" RelativePanel.AlignTopWithPanel="True" Orientation="Vertical" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
+                    <MediaPlayerElement x:ConnectionId='12' x:Name="Player1" AutoPlay="False" Margin="5" HorizontalAlignment="Stretch" Height="600" AreTransportControlsEnabled="True"/>
+                    <ListView x:ConnectionId='13' Name="ListGambar" Visibility="Collapsed">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <Image Width="100" Source="{Binding ImageSource}"/>
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>
-                    <TextBlock x:ConnectionId='13' x:Name="StatusLabel" Margin="10,0,0,10" TextWrapping="Wrap" Text="Status:" />
-                    <Border x:ConnectionId='14' x:Name="StatusBorder" Margin="0,0,0,0">
+                    <TextBlock x:ConnectionId='14' x:Name="StatusLabel" Margin="10,0,0,10" TextWrapping="Wrap" Text="Status:" />
+                    <Border x:ConnectionId='15' x:Name="StatusBorder" Margin="0,0,0,0">
                         <ScrollViewer VerticalScrollMode="Auto"  VerticalScrollBarVisibility="Auto" MaxHeight="200">
-                            <TextBlock x:ConnectionId='15' x:Name="StatusBlock2" FontWeight="Bold" 
+                            <TextBlock x:ConnectionId='16' x:Name="StatusBlock2" FontWeight="Bold" 
                                    MaxWidth="{Binding ElementName=Splitter, Path=ActualWidth}" Margin="10,10,10,20" TextWrapping="Wrap"  />
                         </ScrollViewer>
                     </Border>

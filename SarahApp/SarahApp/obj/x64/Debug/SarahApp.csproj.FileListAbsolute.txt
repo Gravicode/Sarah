@@ -246,8 +246,6 @@ C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\System.Spatial\en-US\System.
 C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\SarahApp.csproj.GenerateResource.Cache
 C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\priconfig.xml
 C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\priconfig.xml.intermediate
-C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\layout.resfiles
-C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\layout.resfiles.intermediate
 C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\resources.resfiles
 C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\resources.resfiles.intermediate
 C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\pri.resfiles
@@ -259,7 +257,6 @@ C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\M2Mqtt.WinRT.pri.xml
 C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\MyToolkit.Extended.pri.xml
 C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\ProjectArchitectures.txt
 C:\experiment\Sarah\SarahApp\SarahApp\bin\x64\Debug\Styles\Styles.xbf
-C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\SarahApp.csprojResolveAssemblyReference.cache
 C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\Styles\Styles.xaml
 C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\Styles\Styles.xbf
 C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\bin\x64\Debug\App.xbf
@@ -528,3 +525,14 @@ C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\obj\x64\Debug\MultipleQualifiersPerDi
 C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\obj\x64\Debug\M2Mqtt.WinRT.pri.xml
 C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\obj\x64\Debug\MyToolkit.Extended.pri.xml
 C:\jobs\UMRAH\demo\Sarah\SarahApp\SarahApp\obj\x64\Debug\ProjectArchitectures.txt
+C:\experiment\Sarah\SarahApp\SarahApp\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\SarahApp.csprojAssemblyReference.cache
+C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\SarahApp.csproj.CoreCompileInputs.cache
+C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\SarahApp.csproj.CopyComplete
+C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\unfiltered.layout.resfiles
+C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\filtered.layout.resfiles
+C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\excluded.layout.resfiles
+C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\experiment\Sarah\SarahApp\SarahApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json
